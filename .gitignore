@@ -1,0 +1,17 @@
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+crash.*.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# tfvars may contain secrets
+*.tfvars
+*.tfvars.json
+
+# macOS
+.DS_Store
